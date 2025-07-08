@@ -1,8 +1,9 @@
 import React from 'react'
-import dblogo from '../assets/dblogo.png' 
+import dblogo from '../assets/dblogo.png'
 
 function Navbar() {
   return (
+
     <nav className="min-h-20 w-full bg-black flex items-center px-10 shadow-md relative font-dokkan">
       <img src={dblogo} alt="Dragon Ball Logo" className="h-12 w-auto mr-4" />
       <ul className="font-extrabold text-2xl flex space-x-20 ml-auto uppercase tracking-wider drop-shadow-[2px_2px_0px_rgba(0,0,0,0.7)] text-sky-950 text-shadow-2xs text-shadow-sky-400">
