@@ -11,7 +11,6 @@ function Navbar() {
         <li className="text-red-400 hover:text-white transition-colors duration-200 cursor-pointer">Events</li>
         <li className="text-blue-300 hover:text-white transition-colors duration-200 cursor-pointer">News</li>
       </ul>
-      {/* Red and white horizontal stripes at the bottom */}
       <div className="absolute left-0 bottom-0 w-full h-3 flex flex-col z-20">
         <div className="w-full h-1.5 bg-red-600" />
         <div className="w-full h-1.5 bg-white" />
