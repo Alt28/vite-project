@@ -212,7 +212,7 @@ function Dashboard() {
           </div>
           {/* Events */}
           <div className="bg-blue-900 rounded-lg shadow-xl p-8 flex flex-col items-center justify-center w-screen h-150 mb-6 mt-40 relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
-            <nav className="absolute right-[30%] top-[3%] min-h-20 w-150 bg-black flex items-center px-10 shadow-md"></nav>
+            <nav className="absolute right-[30%] top-[3%] min-h-20 w-150 bg-black flex items-center px-10 shadow-md border-4 border-amber-400"></nav>
             <div class="md:flex">
             <div class="md:shrink-0"></div>
             <img
@@ -222,9 +222,10 @@ function Dashboard() {
               style={{ mixBlendMode: 'multiply', zIndex: 0 }}
             />  
             </div>
-          </div>
+          </div>  
           {/* News */}
           <div className="bg-blue-900 rounded-lg shadow-xl p-8 flex flex-col items-center justify-center w-screen h-150 mb-6 mt-40 relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+            <nav className="absolute right-[30%] top-[3%] min-h-20 w-150 bg-black flex items-center px-10 shadow-md border-4 border-amber-400"></nav>
             <div class="md:flex">
             <div class="md:shrink-0"></div>
              <img

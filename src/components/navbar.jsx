@@ -12,8 +12,8 @@ function Navbar() {
         <li className="text-blue-300 hover:text-white transition-colors duration-200 cursor-pointer">News</li>
       </ul>
       <div className="absolute left-0 bottom-0 w-full h-3 flex flex-col z-20">
-        <div className="w-full h-1.5 bg-red-600" />
-        <div className="w-full h-1.5 bg-white" />
+        <div className="w-full h-1 bg-amber-400" />
+        <div className="w-full h-1 bg-white" />
       </div>
     </nav>
   )
